@@ -133,12 +133,178 @@ header .nav a:hover{
     height: 70px;
 }
 
+/* experts */
+.experts .box{
+    width: 260px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.experts .box img{
+    background: #f8f8fe;
+    border-radius: 5px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.experts .box h3{
+    font-size: 22px;
+    margin: 2px 0;
+    color: var(--black);
+}
+
+.experts .box span{
+    font-size: 15px;
+    color: var(--main-color);
+}
 
 
+.experts .box .share{
+    position: absolute;
+    top: 5px;
+    right: -50px;
+    transition: .2s;
+}
+
+.experts .box:hover .share{
+    right: 15px;
+}
+
+.experts .box .share a{
+    border-radius: 5px;
+    background: var(--main-color);
+    color: #fff;
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-top: 5px;
+}
+
+.experts .box .share a:hover{
+    background: var(--black);
+    box-shadow: var(--box-shadow);
+}
+/* contact */
+.contact form{
+    padding:15px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+.contact form .box,
+.contact form textarea{
+    background:#f8f8fe;
+    border-radius: 5px;
+    font-size: 17px;
+    padding:10px;
+    margin:7px 0;
+    width: 100%;
+    text-transform: none;
+    color:var(--black);
+}
+
+.contact form textarea{
+    resize: none;
+    height: 200px;
+}
+
+.contact .map{
+    border-radius: 5px;
+    height: 100%;
+    width:100%;
+}
+
+/* blog */
+.blogs .box{
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    background:#fff;
+}
+
+.blogs .box .image{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background:#f8f8fe;
+}
+
+.blogs .box .image img{
+    transition: .2s linear;
+}
+
+.blogs .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.blogs .box .content h3{
+    padding:5px 0;
+    font-size: 20px;
+    color:var(--black);
+}
+
+.blogs .box .content .icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.blogs .box .content .icons a{
+    color:#777;
+    font-size: 13px;
+}
+
+.blogs .box .content .icons a i{
+    padding-right: 7px;
+}
 
 
+.blogs .box .content .icons a:hover{
+    color:var(--main-color);
+}
 
+.footer .box{
+    flex:1 1 250px;
+}
 
+.footer .box h3{
+    font-size: 20px;
+    color:var(--black);
+}
+
+.footer .box a{
+    display: block;
+    font-size: 14px;
+    color:#777;
+    padding:5px 0;
+}
+
+.footer .box a:hover{
+    color:var(--main-color);
+}
+
+.footer .credit{
+    text-align: center;
+    color:var(--black);
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.footer .credit span{
+    color:var(--main-color);
+}
 
 
 
