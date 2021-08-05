@@ -17,6 +17,7 @@
 
 html{
     scroll-padding-top: 60px;
+    transition: margin-right 2s;
 }
 
 section{
@@ -25,6 +26,17 @@ section{
 
 section:nth-child(odd){
     background: #f8f8fe;
+}
+
+.heading{
+    text-align: center;
+    color: var(--black);
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+
+.heading span{
+    color: var(--main-color);
 }
 
 .link-btn{
@@ -106,6 +118,19 @@ header .nav a:hover{
     color: #777;
     font-size: 14px;
     text-transform: none;
+}
+
+/* prevent */
+.prevent .box{
+    flex: 1 1 300px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.prevent .box img{
+    margin-bottom: 10px;
+    height: 70px;
 }
 
 
